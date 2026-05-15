@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -52,7 +52,7 @@
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
                     <div class="timeline-header">
-                        <img src="assets/images/crusader_logo_1778731239459.png" alt="Crusader Logo" class="timeline-logo">
+                        <img src="assets/images/crusader_logo.png" alt="Crusader Logo" class="timeline-logo">
                         <div>
                             <div class="timeline-date">Sep 2025 - Present</div>
                             <h3 class="timeline-title">Software Programmer</h3>
@@ -72,7 +72,7 @@
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
                     <div class="timeline-header">
-                        <img src="assets/images/creed_logo_1778731253718.png" alt="Creed & Bear Logo" class="timeline-logo">
+                        <img src="assets/images/creed_logo.png" alt="Creed & Bear Logo" class="timeline-logo">
                         <div>
                             <div class="timeline-date">Jan 2023 - Apr 2025</div>
                             <h3 class="timeline-title">Python Developer</h3>
@@ -92,20 +92,92 @@
     <section class="section container" id="education">
         <h2 class="section-title reveal">Education</h2>
         <div class="timeline">
-            <div class="timeline-item reveal">
+            <div class="timeline-item reveal" id="edu-rmit">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
-                    <div class="timeline-date">Jul 2024 - Jun 2026</div>
-                    <h3 class="timeline-title">Master of Data Science</h3>
-                    <div class="timeline-subtitle">RMIT University • Melbourne, Australia</div>
+                    <div class="timeline-header">
+                        <img src="assets/images/rmit_logo.png" alt="RMIT University Logo" class="timeline-logo">
+                        <div>
+                            <div class="timeline-date">Jul 2024 - Jun 2026</div>
+                            <h3 class="timeline-title">Master of Data Science</h3>
+                            <div class="timeline-subtitle" style="margin-bottom:0;">RMIT University • Melbourne, Australia</div>
+                        </div>
+                    </div>
+                    <div class="edu-details" id="edu-details-rmit">
+                        <div class="edu-details-inner">
+                            <div class="edu-highlight-row">
+                                <div class="edu-highlight"><span class="edu-highlight-icon">📊</span> Data Science Focus</div>
+                                <div class="edu-highlight"><span class="edu-highlight-icon">🤖</span> AI & Machine Learning</div>
+                                <div class="edu-highlight"><span class="edu-highlight-icon">☁️</span> Cloud Computing</div>
+                            </div>
+                            <h4 class="edu-courses-title">Key Coursework</h4>
+                            <div class="edu-courses-grid">
+                                <span class="edu-course-tag">Machine Learning</span>
+                                <span class="edu-course-tag">Deep Learning</span>
+                                <span class="edu-course-tag">Natural Language Processing</span>
+                                <span class="edu-course-tag">Big Data Analytics</span>
+                                <span class="edu-course-tag">Statistical Learning</span>
+                                <span class="edu-course-tag">Data Visualization</span>
+                                <span class="edu-course-tag">Data Wrangling</span>
+                                <span class="edu-course-tag">Cloud Computing</span>
+                                <span class="edu-course-tag">AI & Ethics</span>
+                                <span class="edu-course-tag">Time Series Analysis</span>
+                                <span class="edu-course-tag">Applied Analytics</span>
+                                <span class="edu-course-tag">Database Concepts</span>
+                            </div>
+                            <div class="edu-note">Currently pursuing — expected completion Jun 2026. Working full-time while studying.</div>
+                        </div>
+                    </div>
+                    <div class="edu-toggle" onclick="toggleEduDetails('edu-details-rmit', this)">
+                        <span class="edu-toggle-text">View Details</span>
+                        <span class="edu-toggle-arrow">▼</span>
+                    </div>
                 </div>
             </div>
-            <div class="timeline-item reveal">
+            <div class="timeline-item reveal" id="edu-bits">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
-                    <div class="timeline-date">Aug 2019 - Jul 2023</div>
-                    <h3 class="timeline-title">Bachelor of Engineering, Computer Science</h3>
-                    <div class="timeline-subtitle">BITS Pilani Dubai Campus • Dubai, UAE</div>
+                    <div class="timeline-header">
+                        <img src="assets/images/bits_pilani_logo.png" alt="BITS Pilani Logo" class="timeline-logo">
+                        <div>
+                            <div class="timeline-date">Aug 2019 - Jul 2023</div>
+                            <h3 class="timeline-title">Bachelor of Engineering, Computer Science</h3>
+                            <div class="timeline-subtitle" style="margin-bottom:0;">BITS Pilani Dubai Campus • Dubai, UAE</div>
+                        </div>
+                    </div>
+                    <div class="edu-details" id="edu-details-bits">
+                        <div class="edu-details-inner">
+                            <div class="edu-highlight-row">
+                                <div class="edu-highlight"><span class="edu-highlight-icon">💻</span> Computer Science</div>
+                                <div class="edu-highlight"><span class="edu-highlight-icon">🏗️</span> Software Engineering</div>
+                                <div class="edu-highlight"><span class="edu-highlight-icon">🔬</span> Research Projects</div>
+                            </div>
+                            <h4 class="edu-courses-title">Key Coursework</h4>
+                            <div class="edu-courses-grid">
+                                <span class="edu-course-tag">Data Structures & Algorithms</span>
+                                <span class="edu-course-tag">Object Oriented Programming</span>
+                                <span class="edu-course-tag">Operating Systems</span>
+                                <span class="edu-course-tag">Computer Networks</span>
+                                <span class="edu-course-tag">Database Systems</span>
+                                <span class="edu-course-tag">Artificial Intelligence</span>
+                                <span class="edu-course-tag">Machine Learning</span>
+                                <span class="edu-course-tag">Computer Architecture</span>
+                                <span class="edu-course-tag">Theory of Computation</span>
+                                <span class="edu-course-tag">Compiler Design</span>
+                                <span class="edu-course-tag">Software Engineering</span>
+                                <span class="edu-course-tag">Discrete Mathematics</span>
+                                <span class="edu-course-tag">Linear Algebra</span>
+                                <span class="edu-course-tag">Probability & Statistics</span>
+                                <span class="edu-course-tag">Cryptography</span>
+                                <span class="edu-course-tag">Digital Design</span>
+                            </div>
+                            <div class="edu-note">4-year integrated engineering program. Coursework spanned core CS foundations, mathematics, and applied engineering.</div>
+                        </div>
+                    </div>
+                    <div class="edu-toggle" onclick="toggleEduDetails('edu-details-bits', this)">
+                        <span class="edu-toggle-text">View Details</span>
+                        <span class="edu-toggle-arrow">▼</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -115,25 +187,45 @@
         <h2 class="section-title reveal">Technical Skills</h2>
         <div class="skills-marquee reveal">
             <div class="skills-track">
-                <span class="skill-pill">Python</span>
-                <span class="skill-pill">TypeScript</span>
-                <span class="skill-pill">FastAPI</span>
-                <span class="skill-pill">React 18</span>
-                <span class="skill-pill">PostgreSQL</span>
-                <span class="skill-pill">Anthropic Claude</span>
-                <span class="skill-pill">Azure</span>
-                <span class="skill-pill">AWS</span>
-                <span class="skill-pill">Docker</span>
-                <!-- Duplicate for loop -->
-                <span class="skill-pill">Python</span>
-                <span class="skill-pill">TypeScript</span>
-                <span class="skill-pill">FastAPI</span>
-                <span class="skill-pill">React 18</span>
-                <span class="skill-pill">PostgreSQL</span>
-                <span class="skill-pill">Anthropic Claude</span>
-                <span class="skill-pill">Azure</span>
-                <span class="skill-pill">AWS</span>
-                <span class="skill-pill">Docker</span>
+                <span class="skill-pill"><i class="devicon-python-plain"></i> Python</span>
+                <span class="skill-pill"><i class="devicon-typescript-plain"></i> TypeScript</span>
+                <span class="skill-pill"><i class="devicon-fastapi-plain"></i> FastAPI</span>
+                <span class="skill-pill"><i class="devicon-react-original"></i> React 18</span>
+                <span class="skill-pill"><i class="devicon-postgresql-plain"></i> PostgreSQL</span>
+                <span class="skill-pill"><svg class="skill-pill-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg> Anthropic Claude</span>
+                <span class="skill-pill"><i class="devicon-azure-plain"></i> Azure</span>
+                <span class="skill-pill"><i class="devicon-amazonwebservices-plain-wordmark"></i> AWS</span>
+                <span class="skill-pill"><i class="devicon-docker-plain"></i> Docker</span>
+                <span class="skill-pill"><i class="devicon-mongodb-plain"></i> MongoDB</span>
+                <span class="skill-pill"><i class="devicon-flask-original"></i> Flask</span>
+                                <span class="skill-pill"><svg class="skill-pill-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 3C7.58 3 4 4.79 4 7v10c0 2.21 3.58 4 8 4s8-1.79 8-4V7c0-2.21-3.58-4-8-4zm0 2c3.87 0 6 1.5 6 2s-2.13 2-6 2-6-1.5-6-2 2.13-2 6-2zM4 17v-2.34c1.52 1.1 4.28 1.84 8 1.84s6.48-.74 8-1.84V17c0 .5-2.13 2-6 2s-6-1.5-6-2z"/></svg> SQLAlchemy</span>
+                <span class="skill-pill"><i class="devicon-plotly-plain"></i> Plotly</span>
+                <span class="skill-pill"><i class="devicon-materialui-plain"></i> MUI v7</span>
+                <span class="skill-pill"><i class="devicon-tailwindcss-original"></i> Tailwind CSS</span>
+                <span class="skill-pill"><i class="devicon-mysql-plain"></i> MySQL</span>
+                <span class="skill-pill"><i class="devicon-sqlite-plain"></i> SQLite</span>
+                <span class="skill-pill"><i class="devicon-git-plain"></i> Git</span>
+                <span class="skill-pill"><i class="devicon-github-original"></i> GitHub Actions</span>
+                <!-- Duplicate for seamless loop -->
+                <span class="skill-pill"><i class="devicon-python-plain"></i> Python</span>
+                <span class="skill-pill"><i class="devicon-typescript-plain"></i> TypeScript</span>
+                <span class="skill-pill"><i class="devicon-fastapi-plain"></i> FastAPI</span>
+                <span class="skill-pill"><i class="devicon-react-original"></i> React 18</span>
+                <span class="skill-pill"><i class="devicon-postgresql-plain"></i> PostgreSQL</span>
+                <span class="skill-pill"><svg class="skill-pill-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg> Anthropic Claude</span>
+                <span class="skill-pill"><i class="devicon-azure-plain"></i> Azure</span>
+                <span class="skill-pill"><i class="devicon-amazonwebservices-plain-wordmark"></i> AWS</span>
+                <span class="skill-pill"><i class="devicon-docker-plain"></i> Docker</span>
+                <span class="skill-pill"><i class="devicon-mongodb-plain"></i> MongoDB</span>
+                <span class="skill-pill"><i class="devicon-flask-original"></i> Flask</span>
+                <span class="skill-pill"><i class="devicon-sqlalchemy-original"></i> SQLAlchemy</span>
+                <span class="skill-pill"><i class="devicon-plotly-plain"></i> Plotly</span>
+                <span class="skill-pill"><i class="devicon-materialui-plain"></i> MUI v7</span>
+                <span class="skill-pill"><i class="devicon-tailwindcss-original"></i> Tailwind CSS</span>
+                <span class="skill-pill"><i class="devicon-mysql-plain"></i> MySQL</span>
+                <span class="skill-pill"><i class="devicon-sqlite-plain"></i> SQLite</span>
+                <span class="skill-pill"><i class="devicon-git-plain"></i> Git</span>
+                <span class="skill-pill"><i class="devicon-github-original"></i> GitHub Actions</span>
             </div>
         </div>
         <div class="skills-grid reveal reveal-delay-1">
@@ -143,7 +235,7 @@
                     <i class="devicon-fastapi-plain"></i>
                     Backend & APIs
                 </h3>
-                <p>FastAPI, SQLAlchemy, SQLModel, asyncpg, Pydantic, JWT Auth, RBAC, WebSocket, Flask</p>
+                <p>FastAPI, SQLAlchemy, SQLModel, asyncpg, Pydantic, JWT Auth, RBAC, WebSocket, REST API Design, Flask, Background Workers, Middleware Engineering</p>
             </div>
             <div class="skill-category">
                 <h3 style="display:flex; align-items:center; gap:8px;">
@@ -151,7 +243,7 @@
                     <i class="devicon-tensorflow-original"></i>
                     AI & LLM
                 </h3>
-                <p>Anthropic Claude (Sonnet/Haiku), Tool-Using Agents, RAG, Prompt Engineering, LangChain, OpenAI API</p>
+                <p>Anthropic Claude (Sonnet/Haiku), Tool-Using Agents, RAG, Prompt Engineering, LangChain, OpenAI API, Sentiment Analysis, NLP</p>
             </div>
             <div class="skill-category">
                 <h3 style="display:flex; align-items:center; gap:8px;">
@@ -159,7 +251,7 @@
                     <i class="devicon-typescript-plain"></i>
                     Frontend
                 </h3>
-                <p>React 18, TypeScript, MUI v7, AG Grid, Recharts, Plotly, Tailwind CSS</p>
+                <p>React 18, TypeScript, MUI v7, AG Grid, Recharts, Plotly, Mermaid.js, Tanstack Query, react-hook-form, Tailwind CSS</p>
             </div>
             <div class="skill-category">
                 <h3 style="display:flex; align-items:center; gap:8px;">
@@ -167,7 +259,39 @@
                     <i class="devicon-amazonwebservices-plain-wordmark"></i>
                     Cloud & DevOps
                 </h3>
-                <p>Azure (App Service, PostgreSQL Flexible Server, VNet), AWS (EC2, S3), GitHub Actions CI/CD</p>
+                <p>Azure (App Service, Static Web Apps, Blob Storage, VNet, PostgreSQL Flexible Server, VM), AWS (EC2, S3, Lambda), GitHub Actions CI/CD, Docker</p>
+            </div>
+            <div class="skill-category">
+                <h3 style="display:flex; align-items:center; gap:8px;">
+                    <i class="devicon-postgresql-plain"></i>
+                    <i class="devicon-mongodb-plain"></i>
+                    Databases
+                </h3>
+                <p>PostgreSQL, SQLite, MongoDB, MySQL, Cassandra, Vector Databases, Schema Design, Connection Pool Management</p>
+            </div>
+            <div class="skill-category">
+                <h3 style="display:flex; align-items:center; gap:8px;">
+                    <i class="devicon-microsoftteams-plain"></i>
+                    <i class="devicon-azuredevops-plain"></i>
+                    Integrations
+                </h3>
+                <p>Microsoft Graph (SharePoint, Email API), Pronto Xi ERP (REST), SMS Gateways (Cellcast, WebSocket), Azure Blob Storage</p>
+            </div>
+            <div class="skill-category">
+                <h3 style="display:flex; align-items:center; gap:8px;">
+                    <i class="devicon-pandas-plain"></i>
+                    <i class="devicon-numpy-plain"></i>
+                    Data Science & Analytics
+                </h3>
+                <p>Pandas, NumPy, Scikit-learn, Time Series Forecasting, Statistical Modelling, Data Visualization, Jupyter, Feature Engineering</p>
+            </div>
+            <div class="skill-category">
+                <h3 style="display:flex; align-items:center; gap:8px;">
+                    <i class="devicon-bash-plain"></i>
+                    <i class="devicon-windows11-original"></i>
+                    Automation & Tooling
+                </h3>
+                <p>Python Automation (.exe packaging), SolidWorks Macros, Bitbucket Pipelines, Batch Processing, WebSocket Gateways, Scheduler Systems</p>
             </div>
         </div>
     </section>
